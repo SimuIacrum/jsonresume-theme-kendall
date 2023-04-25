@@ -212,6 +212,7 @@ function render(resumeObject) {
                 a.year = (a.releaseDate || "").substr(0,4);
                 a.day = (a.releaseDate || "").substr(8,2);
                 a.month = getMonth(a.releaseDate || "");
+                a.preprint = a.preprint ? ", Preprint" : "";
             });
         }
     }

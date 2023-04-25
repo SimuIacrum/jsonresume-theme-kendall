@@ -268,7 +268,7 @@
                 {{#publisher}}
                 <div class="publisher"><i class= "fas fa-bookmark ico"></i> {{publisher}}</div>
                 {{/publisher}}
-                <div class="year">{{day}} {{month}} {{year}}</div>
+                <div class="year">{{day}} {{month}} {{year}}{{preprint}}</div>
                 {{#url}}
                 <div class="address">
                   <a href="{{url}}" target= "_blank"><i class="fas fa-globe ico"></i> {{url}}</a>
