@@ -221,6 +221,7 @@
                     Grade: {{score}}
                   </p>
                   {{/score}}
+                  <p>{{summary}}</p>
                   {{#educationCourses}}
                     <div>Courses</div>
                     <ul class="list-group">
